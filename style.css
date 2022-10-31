@@ -1,0 +1,88 @@
+/* main body */
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+body{
+    background: #4e54c8;  
+    background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
+}
+
+.text{
+    font-size: 50px;
+    margin-left: 580px;
+    color: #d9d9e0;
+    font-family: "Times New Roman", Times, serif;
+}
+
+/* calculator starts here */
+
+.calc{
+    width: 320px;
+    height: 430px;
+    background-color: black;
+    margin: auto;
+    margin-top: 130px;
+    border: solid 4px #eedede
+    
+    
+}
+
+#output{
+    width: 100%;
+}
+
+#screen{
+    width: 312px;
+    height: 130px;
+    background: #fff;
+    pointer-events: none;
+    font-size: 30px;
+    color: black;
+    text-align: end;
+}
+
+.btns{
+    width: 70px;
+    height: 45px;
+    margin-top: 12px;
+    margin-left: 2px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    background: #111112;
+    color: #fff;
+    border-radius: 7px;
+    cursor: pointer;
+    
+}
+
+.btns-op{
+    width: 70px;
+    height: 45px;
+    margin-top: 12px;
+    margin-left: 2px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    background: #43438f;   
+    color: #fff; 
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.btn-equal{
+    width: 70px;
+    height: 45px;
+    margin-top: 12px;
+    margin-left: 2px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    background: rgb(220, 220, 17);
+    border-radius: 7px;
+    cursor: pointer;
+    
+}

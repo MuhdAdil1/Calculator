@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+<body>
+    <div >
+        <h1 class="text">CALCULATOR</h1>
+        
+            
+    
+        <div class="calc">
+            <div id="output">
+                <input type="text" id="screen" placeholder="0">
+            </div>
+            <div>
+                <button class="btns" onclick="clrScreen('clear')">C</button>
+                <button class="btns" onclick="clrScreen('clear')">AC</button>
+                <button class="btns" onclick="btnClick('/100')">%</button>
+                <button class="btns-op" onclick="btnClick('/')">÷</button>
+
+            </div>
+            <div>
+                <button class="btns" onclick="btnClick('7')">7</button>
+                <button class="btns" onclick="btnClick('8')">8</button>
+                <button class="btns" onclick="btnClick('9')">9</button>
+                <button class="btns-op" onclick="btnClick('-')">-</button>
+            </div>
+            <div>
+                <button class="btns" onclick="btnClick('4')">4</button>
+                <button class="btns" onclick="btnClick('5')">5</button>
+                <button class="btns" onclick="btnClick('6')">6</button>
+                <button class="btns-op" onclick="btnClick('*')">×</button>
+            </div>
+            <div>
+                <button class="btns" onclick="btnClick('1')">1</button>
+                <button class="btns" onclick="btnClick('2')">2</button>
+                <button class="btns" onclick="btnClick('3')">3</button>
+                <button class="btns-op" onclick="btnClick('+')">+</button>
+            </div>
+            <div>
+                <button class="btns" onclick="btnClick('0')">0</button>
+                <button class="btns" onclick="btnClick('.')">.</button>
+                <button class="btns" onclick="del()">del</button>
+                <button class="btn-equal" onclick="btnEqual()">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
